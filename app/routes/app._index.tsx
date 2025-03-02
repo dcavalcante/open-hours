@@ -14,7 +14,6 @@ import {
   Frame,
 } from "@shopify/polaris";
 
-// Define a type for your action result
 interface ActionResult {
   status?: "success" | "error";
   message?: string;
@@ -29,7 +28,6 @@ export const loader: LoaderFunction = async ({ request }) => {
     where: { shopId },
     orderBy: { dayOfWeek: "asc" },
   });
-  console.log("openHours", openHours);
   return json({ openHours });
 };
 
@@ -87,7 +85,6 @@ export default function OpenHoursPage() {
     "Sunday",
   ];
 
-  // Set default form values.
   const defaultValues: Record<string, string> = {};
   days.forEach((day) => {
     defaultValues[`${day.toLowerCase()}Open`] = "09:00";

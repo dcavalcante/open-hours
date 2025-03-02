@@ -1,4 +1,5 @@
 name = "Store Closed Extension"
+# type = "theme"
 type = "theme_app_extension"
 version = "1.0"
 
@@ -13,3 +14,4 @@ file = "snippets/open-hours.liquid"
 name = "Store Closed: Cart Page"
 target = "cart"
 file = "snippets/open-hours.liquid"
+

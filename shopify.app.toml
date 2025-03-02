@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "1fb6151929eb0b6549518b068e111412"
-application_url = "https://ripe-stopped-explicitly-celebrities.trycloudflare.com"
+application_url = "https://lauren-grown-cardiac-brothers.trycloudflare.com"
 embedded = true
 name = "open-hours"
 handle = "open-hours-1"
@@ -27,9 +27,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://ripe-stopped-explicitly-celebrities.trycloudflare.com/auth/callback",
-  "https://ripe-stopped-explicitly-celebrities.trycloudflare.com/auth/shopify/callback",
-  "https://ripe-stopped-explicitly-celebrities.trycloudflare.com/api/auth/callback"
+  "https://lauren-grown-cardiac-brothers.trycloudflare.com/auth/callback",
+  "https://lauren-grown-cardiac-brothers.trycloudflare.com/auth/shopify/callback",
+  "https://lauren-grown-cardiac-brothers.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
