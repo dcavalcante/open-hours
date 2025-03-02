@@ -1,0 +1,15 @@
+name = "Store Closed Extension"
+type = "theme_app_extension"
+version = "1.0"
+
+# You can define one or more blocks. 
+# For example, a snippet the merchant can add to product pages or the cart page:
+[extension.blocks.product]
+name = "Store Closed: Product Page"
+target = "product"
+file = "snippets/open-hours.liquid"
+
+[extension.blocks.cart]
+name = "Store Closed: Cart Page"
+target = "cart"
+file = "snippets/open-hours.liquid"
